@@ -1,29 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to My Github ePortfolio CS 499 Project
 
 You can use the [editor on GitHub](https://github.com/c-pritchett/c-pritchett.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Update 1.26.2021
+In accordance with the CS 499 ePortfolio submissions, I have created a code review of my chosen artifact. Below is a link to my code review, detailing the project and my intended changes.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+**Code Review**
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
