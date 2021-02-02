@@ -1,4 +1,4 @@
-## Welcome to My Github ePortfolio CS 499 Project
+## Welcome to My Github ePortfolio CS 499 Capstone Project
 
 
 
@@ -9,7 +9,7 @@ This update contains the enhancements for my CS 499 Capstone Enhancement One: So
 
 
 ### Update 1.26.2021
-In accordance with the CS 499 ePortfolio submissions, I have created a code review of my chosen artifact. Below is a link to my code review, detailing the project and my intended changes.
+In accordance with the CS 499 Capstone ePortfolio submissions, I have created a code review of my chosen artifact. Below is a link to my code review, detailing the project and my intended changes.
 
 
 **Code Review**
