@@ -1,6 +1,9 @@
 ## Welcome to My Github ePortfolio CS 499 Project
 
-You can use the [editor on GitHub](https://github.com/c-pritchett/c-pritchett.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+
+### Update 2.2.2021
+This update contains the enhancements for my CS 499 Capstone Enhancement One: Software Design and Engineering. The changes to the file portrayed as well as the additional files created can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/SoftwareDesign).
+
 
 
 ### Update 1.26.2021
