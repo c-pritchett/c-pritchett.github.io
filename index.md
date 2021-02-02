@@ -1,8 +1,10 @@
 ## Welcome to My Github ePortfolio CS 499 Project
 
 
+
 ### Update 2.2.2021
-This update contains the enhancements for my CS 499 Capstone Enhancement One: Software Design and Engineering. The changes to the file portrayed as well as the additional files created can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/SoftwareDesign).
+This update contains the enhancements for my CS 499 Capstone Enhancement One: Software Design and Engineering. The changes to the file portrayed in the Code Review, as well as the additional files created for this enhancement can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/SoftwareDesign).
+
 
 
 
@@ -13,6 +15,7 @@ In accordance with the CS 499 ePortfolio submissions, I have created a code revi
 **Code Review**
 
 [![](https://img.youtube.com/vi/YqLle5YwdTo/0.jpg)](https://www.youtube.com/watch?v=YqLle5YwdTo)
+
 
 
 
