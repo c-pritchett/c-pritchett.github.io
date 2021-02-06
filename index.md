@@ -9,7 +9,7 @@ This update contains the enhancements for my CS 499 Capstone Enhancement One: So
 
 
 ### Update 1.26.2021
-In accordance with the CS 499 Capstone ePortfolio submissions, I have created a code review of my chosen artifact. Below is a link to my code review, detailing the project and my intended changes.
+This update contains the code review for my CS 499 Capstone ePortfolio, where I discuss my chosen artifact. Below is a link to my code review, detailing the project and my intended changes.
 
 
 **Code Review**
