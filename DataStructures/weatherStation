@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+cd /
+cd home/pi/weather
+sudo python3 menu.py
+cd /
+
