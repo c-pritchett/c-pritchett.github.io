@@ -1,0 +1,14 @@
+02.08.2021
+This directory contains the enhancements for my CS 499 Capstone Enhancement Two: Algorithms and Data Structures.
+
+This Milestone I implemented further functionality into my weather station, utilizing data structures with Python to store and organize the environmental 
+data collected from the sensors. I first created two Python dictionaries, one for day and one for night values, to store temperature and humidity values. 
+These data structures are initialized outside the While True loop in the main weather station python script. To give these values meaning, a variable for 
+a timestamp is initialized, formatted, and dumped to json compatible formatting. This timestamp is initialized and assigned to every loop iteration, giving 
+the temperature and humidity values a date and time of their logging. Further down in the main weather station script is an if else loop with conditions for 
+the light sensor. Previously this would either display data to the console or display a message that it is too dark. The if else loop now will store a 
+timestamp, temperature, and humidity data to the daylight data structure, writing it and appending it to a day light json file if light conditions are bright. 
+If it is too dark, t the if else loop now will store a timestamp, temperature, and humidity data to the nighttime data structure, writing and appending it to 
+the nighttime json file. This gives us two separate json files to work with and display, as well as exact times.
+
+***The two JSON files are sample data, not intended to represent factual day/night times***
