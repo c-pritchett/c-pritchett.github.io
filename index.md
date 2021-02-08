@@ -2,6 +2,10 @@
 
 
 
+### Update 2.8.2021
+This update contains the enhancements for my CS 499 Capstone Enhancement Two: Algorithm and Data Structures. The changes to the files from Enhancement One, as well as the additional files created for this enhancement can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/DataStructures).
+
+
 ### Update 2.2.2021
 This update contains the enhancements for my CS 499 Capstone Enhancement One: Software Design and Engineering. The changes to the file portrayed in the Code Review, as well as the additional files created for this enhancement can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/SoftwareDesign).
 
