@@ -1,0 +1,11 @@
+02.15.2021
+This directory contains the enhancements for my CS 499 Capstone Enhancement Three: Databases.
+
+This artifact enhancement took the results of my efforts last week (the JSON files) and used them in a meaningful way. The JSON files were created via Python 
+script, and then utilized in JavaScript within an HTML file. This allows the end user to display the weather data collected for day and night in their standard 
+web browser. This enhancement showcased my ability to use multiple languages and work with a database to utilize them for the user. Additionally, it also show 
+cases my ability to translate information gathered in one language and convert it to a readable format for the other language. This directory contains the same
+Python files from earlier weeks, the same JSON files but with new sample data and the addition of a new HTML file. The HTML file is the user display and is can
+be viewed from the main Github userpages view.
+
+***The two JSON files are sample data, not intended to represent factual day/night times***
