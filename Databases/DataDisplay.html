@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+var dataPointsHday = [];
+var dataPointsTday = [];
+var dataPointsHnight = [];
+var dataPointsTnight = [];
+$.getJSON("day.json", function(data) {  
+	$.each(data, function(key, value){
+		
+		dataPointsHday.push({
+			x: parseInt(value[2]), 
+			y: parseInt(value[1])});
+			
+		dataPointsTday.push({
+			x: parseInt(value[2]), 
+			y: parseInt(value[0])});
+	});
+	
+	
+	var chartDAY = new CanvasJS.Chart("chartContainerDAY",{
+		title:{
+			text:"Day Time Temperature and Humidity"
+		}, 
+		axisY: {
+			title: "Humidity(%) / Temp(°F)"
+			},
+		toolTip: {
+			shared: true
+			},
+		data: [{
+			type: "line",
+			showInLegend: true,
+			xValueType: "dateTime",
+			xValueFormatString: "hh:mm:ss TT",
+			name: "Humidity",
+			legendText: "Humidity",
+			dataPoints: dataPointsHday,
+		    },
+		    {
+		    type: "line",
+		    showInLegend: true,
+		    xValueType: "dateTime",
+		    xValueFormatString: "hh:mm:ss TT",
+		    name: "Temperature",
+		    legendText: "Temperature",
+		    dataPoints: dataPointsTday,
+		    }]
+	});
+	chartDAY.render();
+});
+
+$.getJSON("night.json", function(data) {  
+	$.each(data, function(key, value){
+		
+		dataPointsHnight.push({
+			x: parseInt(value[2]), 
+			y: parseInt(value[1])});
+			
+		dataPointsTnight.push({
+			x: parseInt(value[2]), 
+			y: parseInt(value[0])});
+	});
+	
+	
+	var chartNIGHT = new CanvasJS.Chart("chartContainerNIGHT",{
+		title:{
+			text:"Night Time Temperature and Humidity"
+		}, 
+		axisY: {
+			title: "Humidity(%) / Temp(°F)"
+			},
+		toolTip: {
+			shared: true
+			},
+		data: [{
+			type: "line",
+			showInLegend: true,
+			xValueType: "dateTime",
+			xValueFormatString: "hh:mm:ss TT",
+			name: "Humidity",
+			legendText: "Humidity",
+			dataPoints: dataPointsHnight,
+		    },
+		    {
+		    type: "line",
+		    showInLegend: true,
+		    xValueType: "dateTime",
+			xValueFormatString: "hh:mm:ss TT",
+		    name: "Temperature",
+		    legendText: "Temperature",
+		    dataPoints: dataPointsTnight,
+		    }]
+	});
+	chartNIGHT.render();
+});
+}
+</script>
+</head>
+<body>
+<div id="chartContainerDAY" style="height: 300px; width: 100%;"></div>
+<div id="chartContainerNIGHT" style="height: 300px; width: 100%;"></div>
+</body>
+</html>
