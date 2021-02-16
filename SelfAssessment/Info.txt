@@ -23,7 +23,13 @@ and LCD screen) through a test ensuring its full functionality. The user can run
 the ease of use, I created an executable script, allowing the user to simply double click a desktop icon to run the program. 
 
   Data Structures: I first created two Python dictionaries, one for day and one for night values, to store temperature and humidity values. These data structures are 
-initialized outside the While True loop in the main weather station python script. To give these values meaning, a variable for a timestamp is initialized, formatted, and dumped to json compatible formatting. This timestamp is initialized and assigned to every loop iteration, giving the temperature and humidity values a date and time of their logging. Further down in the main weather station script is an if else loop with conditions for the light sensor. Previously this would either display data to the console or display a message that it is too dark. The if else loop now will store a timestamp, temperature, and humidity data to the daylight data structure, writing it and appending it to a day light json file if light conditions are bright. If it is too dark, t the if else loop now will store a timestamp, temperature, and humidity data to the nighttime data structure, writing and appending it to the nighttime json file. This gives us two separate json files to work with and display, as well as exact times.
+initialized outside the While True loop in the main weather station python script. To give these values meaning, a variable for a timestamp is initialized, formatted,
+and dumped to json compatible formatting. This timestamp is initialized and assigned to every loop iteration, giving the temperature and humidity values a date and
+time of their logging. Further down in the main weather station script is an if else loop with conditions for the light sensor. Previously this would either display
+data to the console or display a message that it is too dark. The if else loop now will store a timestamp, temperature, and humidity data to the daylight data 
+structure, writing it and appending it to a day light json file if light conditions are bright. If it is too dark, t the if else loop now will store a timestamp, 
+temperature, and humidity data to the nighttime data structure, writing and appending it to the nighttime json file. This gives us two separate json files to work 
+with and display, as well as exact times.
 
   Databases: Utilizing the JSON files generated from my last enhancements, I created a visual display of the data utilizing HTML and JavaScript. This allows the end 
 user to view the data in a web browser/graphical display. There are two graphs, both are multi-series graphs. There is a day display with temperature and humidity 
