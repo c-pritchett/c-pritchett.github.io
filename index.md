@@ -1,6 +1,11 @@
 ## Welcome to My Github ePortfolio CS 499 Capstone Project
 
 
+### Professional Self Assessment
+Finally, my Professional Self Assessment for my CS 499 Capstone ePortfolio can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/SelfAssessment).
+
+
+
 ### Update 2.15.2021
 This update contains the enhancements for my CS 499 Capstone Enhancement Three: Databases. The files generated from Enhancement One and Two, as well as the additional files created for this enhancement can be viewed [here](https://github.com/c-pritchett/c-pritchett.github.io/tree/main/Databases). The JSON database
 files can be viewed in a graph from the HTML file. This can be done by downloading the HTML and JSON files, and viewing the HTML file in your preferred browser.
